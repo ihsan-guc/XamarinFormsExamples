@@ -2,5 +2,6 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <SelectedDevice>nexus_6_pie_9_0_-_api_28</SelectedDevice>
+    <DefaultDevice>nexus_6_pie_9_0_-_api_28</DefaultDevice>
   </PropertyGroup>
 </Project>
