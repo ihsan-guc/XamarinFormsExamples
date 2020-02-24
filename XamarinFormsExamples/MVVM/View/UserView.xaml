@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinFormsExamples.MVVM.View.UserView">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="23"></Setter>
+                <Setter Property="TextColor" Value="Black"></Setter>
+            </Style>
+            <Style TargetType="Entry">
+                <Setter Property="FontSize" Value="19"></Setter>
+                <Setter Property="TextColor" Value="Black"></Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout Spacing="20" VerticalOptions="Center" Padding="30">
+            <Entry Text="{Binding FirstName}" Placeholder="FirstName" PlaceholderColor="Black"></Entry>
+            <Label Text="{Binding FirstName}"></Label>
+            <Entry Text="{Binding LastName}" Placeholder="LastName" PlaceholderColor="Black"></Entry>
+            <Label Text="{Binding LastName}"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
