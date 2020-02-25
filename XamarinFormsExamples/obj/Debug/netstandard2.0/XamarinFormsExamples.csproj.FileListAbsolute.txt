@@ -12,4 +12,5 @@ C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\Xamarin
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\XamarinFormsExamples.dll
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\ref\XamarinFormsExamples.dll
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\XamarinFormsExamples.pdb
-C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\ListView\TextCell\DepartmentView.xaml.g.cs
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\ListView\View\ListViewImageCell.xaml.g.cs
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\ListView\View\ListViewTextCell.xaml.g.cs

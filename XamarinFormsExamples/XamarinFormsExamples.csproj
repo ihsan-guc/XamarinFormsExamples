@@ -16,11 +16,20 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="ListView\TextCell\DepartmentView.xaml">
+    <EmbeddedResource Update="ListView\View\ListViewImageCell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ListView\View\ListViewTextCell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="MVVM\View\UserView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="ListView\View\ListViewTextCell.xaml.cs">
+      <DependentUpon>ListViewTextCell.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>
