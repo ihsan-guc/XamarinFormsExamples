@@ -17,9 +17,9 @@
     <ContentPage.Content>
         <StackLayout Spacing="20" VerticalOptions="Center" Padding="30">
             <Entry Text="{Binding FirstName}" Placeholder="FirstName" PlaceholderColor="Black"></Entry>
-            <Label Text="{Binding FirstName}"></Label>
+            <Label Text="{Binding FirstName}" FontAttributes="Bold"></Label>
             <Entry Text="{Binding LastName}" Placeholder="LastName" PlaceholderColor="Black"></Entry>
-            <Label Text="{Binding LastName}"></Label>
+            <Label Text="{Binding LastName}" FontAttributes="Bold"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

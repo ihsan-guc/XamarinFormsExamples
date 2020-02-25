@@ -12,7 +12,7 @@ namespace XamarinFormsExamples
         {
             InitializeComponent();
 
-            MainPage = new UserView() {BindingContext = new UserViewModel()};
+            MainPage = new UserView() { BindingContext = new UserViewModel()};
         }
 
         protected override void OnStart()
