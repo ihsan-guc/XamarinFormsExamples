@@ -470,3 +470,4 @@ C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\Xamarin
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\res\drawable\picture.png

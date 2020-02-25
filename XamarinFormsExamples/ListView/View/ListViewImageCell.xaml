@@ -4,7 +4,7 @@
              x:Class="XamarinFormsExamples.ListView.View.ListViewImageCell">
     <ContentPage.Content>
         <StackLayout>
-            <ListView>
+            <ListView ItemsSource="{Binding Model}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ImageCell ImageSource="{Binding ImageSource}" Text="{Binding DepartmentName}" TextColor="Black" 
