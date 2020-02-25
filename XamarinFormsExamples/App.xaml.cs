@@ -12,7 +12,8 @@ namespace XamarinFormsExamples
 
             //MainPage = new UserView() { BindingContext = new UserViewModel()};
             //MainPage = new ListViewTextCell() { BindingContext = new DepartmentViewModel() };
-            MainPage = new ListViewImageCell() { BindingContext = new DepartmentViewModel() };
+            //MainPage = new ListViewImageCell() { BindingContext = new DepartmentViewModel() };
+            MainPage = new ListViewEntryCell() { BindingContext = new DepartmentViewModel() };
         }
 
         protected override void OnStart()
