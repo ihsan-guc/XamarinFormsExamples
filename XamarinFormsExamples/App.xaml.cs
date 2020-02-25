@@ -1,8 +1,6 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
-using XamarinFormsExamples.MVVM.View;
-using XamarinFormsExamples.MVVM.ViewModel;
+﻿using Xamarin.Forms;
+using XamarinFormsExamples.ListView.View;
+using XamarinFormsExamples.ListView.ViewModel;
 
 namespace XamarinFormsExamples
 {
@@ -12,7 +10,8 @@ namespace XamarinFormsExamples
         {
             InitializeComponent();
 
-            MainPage = new UserView() { BindingContext = new UserViewModel()};
+            //MainPage = new UserView() { BindingContext = new UserViewModel()};
+            MainPage = new ListViewTextCell() { BindingContext = new DepartmentViewModel() };
         }
 
         protected override void OnStart()
