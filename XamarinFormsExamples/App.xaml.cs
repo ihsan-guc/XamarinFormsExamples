@@ -1,6 +1,5 @@
 ﻿using Xamarin.Forms;
-using XamarinFormsExamples.ListView.View;
-using XamarinFormsExamples.ListView.ViewModel;
+using XamarinFormsExamples.ListViewCRUD.View;
 
 namespace XamarinFormsExamples
 {
@@ -15,7 +14,8 @@ namespace XamarinFormsExamples
             //MainPage = new ListViewImageCell() { BindingContext = new DepartmentViewModel() };
             //MainPage = new ListViewEntryCell() { BindingContext = new DepartmentViewModel() };
             //MainPage = new ListViewSwitchCell() { BindingContext = new DepartmentViewModel() };
-            MainPage = new ListViewViewCell() { BindingContext = new DepartmentViewModel() };
+            //MainPage = new ListViewViewCell() { BindingContext = new DepartmentViewModel() };
+            MainPage = new DepartmentView();
         }
 
         protected override void OnStart()
