@@ -1,13 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
+             x:Name="Departmentview"
              x:Class="XamarinFormsExamples.ListViewCRUD.View.DepartmentView">
     <ContentPage.Content>
-        <StackLayout>
-            
+        <StackLayout Spacing="20" Padding="20">
+            <Label Text="Add" HorizontalOptions="Center" FontSize="23" TextColor="Black"></Label>
+            <Entry Text="{Binding DepartmentName}" TextColor="Black" FontSize="23"></Entry>
+            <Button Text="Add" FontSize="23" Command="{Binding Path=BindingContext.AddCommand,
+                Source={x:Reference Departmentview}}"></Button>
+            <ListView ItemsSource="{Binding Model}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding DepartmentName}" Detail="{Binding DepartmentId}"
+                                  TextColor="Black" DetailColor="Aqua">
+                        </TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -17,3 +17,4 @@ C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\Xamarin
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\ListView\View\ListViewEntryCell.xaml.g.cs
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\ListView\View\ListViewSwitchCell.xaml.g.cs
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\ListView\View\ListViewViewCell.xaml.g.cs
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\ListViewCRUD\View\DepartmentView.xaml.g.cs
