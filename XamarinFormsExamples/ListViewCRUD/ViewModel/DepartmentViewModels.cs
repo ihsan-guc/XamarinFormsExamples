@@ -19,6 +19,8 @@ namespace XamarinFormsExamples.ListViewCRUD.ViewModel
         public DepartmentViewModels()
         {
             addcommand = new Command(AddDepartment);
+            departments = new ObservableCollection<Department>();
+            DepartmentData();
         }
         private string departmentname;
 
@@ -46,11 +48,16 @@ namespace XamarinFormsExamples.ListViewCRUD.ViewModel
             }
             set { departments = value; OnPropertyChanged(); }
         }
-        public ICommand addcommand;
+        public ICommand addcommand,deletecommand;
         public ICommand AddCommand
         {
             get { return addcommand; }
             set { addcommand = value; OnPropertyChanged(); }
+        }
+        public ICommand DeleteCommand
+        {
+            get { return deletecommand; }
+            set { deletecommand= value; OnPropertyChanged(); }
         }
         public void AddDepartment()
         {
@@ -63,6 +70,11 @@ namespace XamarinFormsExamples.ListViewCRUD.ViewModel
             {
                 departments.Add(department);
             }
+            Departments.ToList();
+        }
+        public void DeleteDepartment()
+        {
+
         }
     }
 }
