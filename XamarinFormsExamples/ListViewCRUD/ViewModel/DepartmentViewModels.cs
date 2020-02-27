@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -19,6 +18,7 @@ namespace XamarinFormsExamples.ListViewCRUD.ViewModel
         public DepartmentViewModels()
         {
             addcommand = new Command(AddDepartment);
+            deletecommand = new Command(DeleteDepartment);
             departments = new ObservableCollection<Department>();
             DepartmentData();
         }
@@ -72,9 +72,13 @@ namespace XamarinFormsExamples.ListViewCRUD.ViewModel
             }
             Departments.ToList();
         }
-        public void DeleteDepartment()
+        public void DeleteDepartment(object dep)
         {
-
+            var department = (Department)dep;
+            if (department != null)
+            {
+                Departments.Remove(department);
+            }
         }
     }
 }

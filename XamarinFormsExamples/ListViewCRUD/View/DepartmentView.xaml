@@ -9,11 +9,16 @@
             <Entry Text="{Binding DepartmentName}" TextColor="Black" FontSize="23"></Entry>
             <Button Text="Add" FontSize="23" Command="{Binding Path=BindingContext.AddCommand,
                 Source={x:Reference Departmentview}}"></Button>
-            <ListView ItemsSource="{Binding Model}">
+            <ListView ItemsSource="{Binding Departments}"
+                       HeightRequest="20">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <TextCell Text="{Binding DepartmentName}" Detail="{Binding DepartmentId}"
                                   TextColor="Black" DetailColor="Aqua">
+                            <TextCell.ContextActions>
+                                <MenuItem Text="Delete" Command="{Binding Path=BindingContext.DeleteCommand,
+                                    Source={x:Reference Departmentview}}" CommandParameter="{Binding .}"></MenuItem>
+                            </TextCell.ContextActions>
                         </TextCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
