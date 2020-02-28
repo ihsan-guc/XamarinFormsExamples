@@ -1,5 +1,5 @@
 # Xamarin Forms Örnekleri 
-### MVVM Kısa Tanım <br/>
+### MVVM <br/>
 * Model: Model, uygulama içerisinde kullanacağımız olan datadır.
 * View: View, datanın sunulduğu katmandır. Tüm görsellikler View'da yer alır. Kısaca verinin sunulduğu yerdir(Ekran). View ViewModeli ve Modeli bilmez.
 * ViewModel: ViewModel ise Model ile View'ı bağlayan yapıdır.  View ile Model arasında bir yapıştırıcı görevi görür. View doğrudan ViewModel yardımıyla Model'e erişir ve bazı işlemleri gerçekleştirir. ViewModel Modeli bilir View bilmez.
