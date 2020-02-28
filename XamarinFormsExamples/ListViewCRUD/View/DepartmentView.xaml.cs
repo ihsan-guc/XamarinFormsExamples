@@ -1,6 +1,7 @@
 ﻿
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinFormsExamples.ListViewCRUD.Model;
 using XamarinFormsExamples.ListViewCRUD.ViewModel;
 
 namespace XamarinFormsExamples.ListViewCRUD.View

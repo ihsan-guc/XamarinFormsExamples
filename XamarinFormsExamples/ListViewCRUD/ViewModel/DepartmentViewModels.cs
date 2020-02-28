@@ -19,6 +19,8 @@ namespace XamarinFormsExamples.ListViewCRUD.ViewModel
         {
             addcommand = new Command(AddDepartment);
             deletecommand = new Command(DeleteDepartment);
+            updatecommand = new Command(UpdateDepartment);
+            updatebutton = new Command(UpdateDepartmentButton);
             departments = new ObservableCollection<Department>();
             DepartmentData();
         }
@@ -48,7 +50,7 @@ namespace XamarinFormsExamples.ListViewCRUD.ViewModel
             }
             set { departments = value; OnPropertyChanged(); }
         }
-        public ICommand addcommand,deletecommand;
+        public ICommand addcommand,deletecommand,updatecommand,updatebutton;
         public ICommand AddCommand
         {
             get { return addcommand; }
@@ -58,6 +60,16 @@ namespace XamarinFormsExamples.ListViewCRUD.ViewModel
         {
             get { return deletecommand; }
             set { deletecommand= value; OnPropertyChanged(); }
+        }
+        public ICommand UpdateCommand
+        {
+            get { return updatecommand; }
+            set { updatecommand = value; OnPropertyChanged(); }
+        }
+        public ICommand UpdateButton
+        {
+            get { return updatebutton; }
+            set { updatebutton= value; OnPropertyChanged(); }
         }
         public void AddDepartment()
         {
@@ -78,6 +90,45 @@ namespace XamarinFormsExamples.ListViewCRUD.ViewModel
             if (department != null)
             {
                 Departments.Remove(department);
+            }
+        }
+        private int departmentId;
+
+        public int DepartmentId
+        {
+            get { return departmentId; }
+            set { departmentId = value; }
+        }
+
+        public void UpdateDepartment(object dep)
+        {
+            DepartmentName = "";
+            var department = (Department)dep;
+            if (department != null)
+            {
+                for (int i = 0; i < Departments.Count; i++)
+                {
+                    if (Departments[i].DepartmentId == department.DepartmentId)
+                    {
+                        departmentId = Departments[i].DepartmentId;
+                        DepartmentName = Departments[i].DepartmentName;
+                    }
+                }
+            }
+        }
+        public void UpdateDepartmentButton()
+        {
+            var department = Departments.FirstOrDefault(p=>p.DepartmentId == DepartmentId);
+            if (DepartmentName != null)
+            {
+                for (var i = 0; i < Departments.Count; i++)
+                {
+                    if (Departments[i].DepartmentId == department.DepartmentId)
+                    {
+                        Departments[i].DepartmentName = DepartmentName;
+                    }
+                }
+                Departments.ToList();
             }
         }
     }
