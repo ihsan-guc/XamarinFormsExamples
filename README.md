@@ -10,3 +10,5 @@
 * MVVM ile **TextCell** Kullanımı
 * MVVM ile **ViewCell** Kullanımı
 * MVVM ile **EntryCell** Kullanımı
+* MVVM ile **ImageCell** Kullanımı
+* MVVM ile **SwitchCell** Kullanımı
