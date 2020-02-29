@@ -8,3 +8,5 @@
 ### Xamarin Forms Kullandığım Örnekler
 #### ListView <br/>
 * MVVM ile **TextCell** Kullanımı
+* MVVM ile **ViewCell** Kullanımı
+* MVVM ile **EntryCell** Kullanımı
