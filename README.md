@@ -6,3 +6,5 @@
 ![Resim kaldırılmıştır](https://github.com/ihsan-guc/XamarinFormsExamples/blob/master/XamarinFormsExamples.Android/Resources/drawable/MVMMpicture.png)
 
 ### Xamarin Forms Kullandığım Örnekler
+#### ListView <br/>
+* MVVM ile **TextCell** Kullanımı
