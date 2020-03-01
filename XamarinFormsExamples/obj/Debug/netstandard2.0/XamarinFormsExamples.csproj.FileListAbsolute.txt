@@ -8,7 +8,6 @@ C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\Xamarin
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\MVVM\View\UserView.xaml.g.cs
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\XamarinFormsExamples.AssemblyInfoInputs.cache
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\XamarinFormsExamples.AssemblyInfo.cs
-C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\XamarinFormsExamples.dll
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\ref\XamarinFormsExamples.dll
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\XamarinFormsExamples.pdb
@@ -18,3 +17,4 @@ C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\Xamarin
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\ListView\View\ListViewSwitchCell.xaml.g.cs
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\ListView\View\ListViewViewCell.xaml.g.cs
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\ListViewCRUD\View\DepartmentView.xaml.g.cs
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\EmailValid\EmailValidView.xaml.g.cs
