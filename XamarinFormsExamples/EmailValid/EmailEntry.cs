@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.RegularExpressions;
 using Xamarin.Forms;
 
 namespace XamarinFormsExamples.EmailValid
@@ -21,16 +22,19 @@ namespace XamarinFormsExamples.EmailValid
         {
             var email = e.NewTextValue;
             var emailEntry = sender as Entry;
-            string validEmailPattern = @"^(?!\.)(""([^""\r\\]|\\[""\r\\])*""|"
+            var validEmailPattern = @"^(?!\.)(""([^""\r\\]|\\[""\r\\])*""|"
             + @"([-a-z0-9!#$%&'*+/=?^_`{|}~]|(?<!\.)\.)*)(?<!\.)"
             + @"@[a-z0-9][\w\.-]*[a-z0-9]\.[a-z][a-z\.]*[a-z]$";
-            if (validEmailPattern.Contains(validEmailPattern))
+            if (Regex.IsMatch(email , validEmailPattern))
             {
                 emailEntry.BackgroundColor = Color.Red;
+                emailEntry.FontSize = 23;
+                emailEntry.TextColor = Color.Aqua;
             }
             else
             {
                 emailEntry.BackgroundColor = Color.Wheat;
+                emailEntry.TextColor = Color.Red;
             }
         }
     }

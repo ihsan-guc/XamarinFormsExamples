@@ -3,6 +3,7 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "XamarinFormsExamples.Android.dll" comes first in this list. */
 		"XamarinFormsExamples.Android.dll",
+		"Behaviors.dll",
 		"FormsViewGroup.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",

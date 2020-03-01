@@ -4,6 +4,11 @@
              xmlns:behavior="clr-namespace:XamarinFormsExamples.EmailValid;assembly=XamarinFormsExamples"
              x:Class="XamarinFormsExamples.EmailValid.EmailValidView">
     <ContentPage.Content>
-        
+        <Entry Placeholder="Email">
+            <Entry.Behaviors>
+                <behavior:EmailEntry>
+                </behavior:EmailEntry>
+            </Entry.Behaviors>
+        </Entry>
     </ContentPage.Content>
 </ContentPage>

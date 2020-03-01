@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using XamarinFormsExamples.EmailValid;
 using XamarinFormsExamples.ListViewCRUD.View;
 
 namespace XamarinFormsExamples
@@ -15,7 +16,8 @@ namespace XamarinFormsExamples
             //MainPage = new ListViewEntryCell() { BindingContext = new DepartmentViewModel() };
             //MainPage = new ListViewSwitchCell() { BindingContext = new DepartmentViewModel() };
             //MainPage = new ListViewViewCell() { BindingContext = new DepartmentViewModel() };
-            MainPage = new DepartmentView();
+            //MainPage = new DepartmentView();
+            MainPage = new EmailValidView();
         }
 
         protected override void OnStart()
