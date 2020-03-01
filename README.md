@@ -12,3 +12,6 @@
 * MVVM ile **EntryCell** Kullanımı
 * MVVM ile **ImageCell** Kullanımı
 * MVVM ile **SwitchCell** Kullanımı
+
+#### Validasyon
+* Email Validasyon Kullanımı. 
