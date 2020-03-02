@@ -1,4 +1,4 @@
-﻿namespace XamarinFormsExamples.TabbedPage.Model
+﻿namespace XamarinFormsExamples.MVVMTabbedPage.Model
 {
     public class People
     {
@@ -10,6 +10,6 @@
         public string Phone { get; set; }
         public string FatherName { get; set; }
         public string MotherName { get; set; }
-        public Bank Bank { get; set; }
+        public int BankId { get; set; }
     }
 }
