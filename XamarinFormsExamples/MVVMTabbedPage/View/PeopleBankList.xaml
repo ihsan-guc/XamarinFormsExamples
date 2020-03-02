@@ -4,12 +4,14 @@
              x:Class="XamarinFormsExamples.MVVMTabbedPage.View.PeopleBankList">
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center" Spacing="20" Padding="20">
-            <ListView>
+            <ListView ItemsSource="{Binding Model}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout Orientation="Vertical">
-                            <Label>
-                            </Label>
+                            <Label Text="{Binding FirstName}" TextColor="Black" FontSize="23"></Label>
+                            <Label Text="{Binding LastName}" TextColor="Black" FontSize="23"></Label>
+                            <Label Text="{Binding FatherName}" TextColor="Black" FontSize="23"></Label>
+                            <Label Text="{Binding BankIban}" TextColor="Black" FontSize="23"></Label>
                         </StackLayout>
                     </DataTemplate>
                 </ListView.ItemTemplate>

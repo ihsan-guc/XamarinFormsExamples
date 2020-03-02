@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
              x:Class="XamarinFormsExamples.MVVMTabbedPage.View.PeopleView">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Entry Text="{Binding FirstName}"  Placeholder="FirstName " PlaceholderColor="Black" FontSize="23"></Entry>
+            <Entry Text="{Binding LastName}"   Placeholder="LastName  " PlaceholderColor="Black" FontSize="23"></Entry>
+            <Entry Text="{Binding TCKN}"       Placeholder="TCKN      " PlaceholderColor="Black" FontSize="23"></Entry>
+            <Entry Text="{Binding MotherName}" Placeholder="MotherName" PlaceholderColor="Black" FontSize="23"></Entry>
+            <Entry Text="{Binding Phone}"      Placeholder="Phone     " PlaceholderColor="Black" FontSize="23"></Entry>
+            <Entry Text="{Binding Email}"      Placeholder="Email     " PlaceholderColor="Black" FontSize="23"></Entry>
+            <Entry Text="{Binding FatherName}" Placeholder="FatherName" PlaceholderColor="Black" FontSize="23"></Entry>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

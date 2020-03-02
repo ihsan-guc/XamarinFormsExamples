@@ -12,7 +12,9 @@ namespace XamarinFormsExamples.MVVMTabbedPage.View
         {
             InitializeComponent();
             PeopleViewModel peopleViewModel = new PeopleViewModel();
-            Children.Add();
+            Children.Add(new PeopleView() { BindingContext = peopleViewModel, Title = "People" });
+            Children.Add(new BankView() { BindingContext = peopleViewModel, Title = "Bank" });
+            Children.Add(new PeopleBankList() { BindingContext = peopleViewModel, Title = "Liste" });
         }
     }
 }

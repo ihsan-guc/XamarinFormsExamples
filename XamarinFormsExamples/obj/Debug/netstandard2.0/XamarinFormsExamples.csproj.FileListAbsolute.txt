@@ -19,3 +19,7 @@ C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\Xamarin
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\ListViewCRUD\View\DepartmentView.xaml.g.cs
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\EmailValid\EmailValidView.xaml.g.cs
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\MVVMTabbedPage\View\BankView.xaml.g.cs
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\MVVMTabbedPage\View\PeopleBankList.xaml.g.cs
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\MVVMTabbedPage\View\PeopleView.xaml.g.cs
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\MVVMTabbedPage\View\TabbedPageView.xaml.g.cs

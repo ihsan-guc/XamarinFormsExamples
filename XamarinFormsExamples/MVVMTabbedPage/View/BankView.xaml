@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
+             x:Name="bankview"
              x:Class="XamarinFormsExamples.MVVMTabbedPage.View.BankView">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout VerticalOptions="Center" Padding="20" Spacing="20">
+            <Entry Text="{Binding BankCode}" Placeholder="BankCode" FontSize="23"></Entry>
+            <Entry Text="{Binding BankIban}" Placeholder="BankIban" FontSize="23"></Entry>
+            <Button Text="Ekle" Font="23" TextColor="White" BackgroundColor="Black"
+                    Command="{Binding Path=BindingContext.AddCommand,Source={x:Reference bankview}}"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

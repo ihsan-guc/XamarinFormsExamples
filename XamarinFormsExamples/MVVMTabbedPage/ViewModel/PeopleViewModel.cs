@@ -1,6 +1,9 @@
-﻿using System.Collections.ObjectModel;
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Windows.Input;
+using Xamarin.Forms;
 using XamarinFormsExamples.MVVMTabbedPage.Model;
 
 namespace XamarinFormsExamples.MVVMTabbedPage.ViewModel
@@ -71,22 +74,51 @@ namespace XamarinFormsExamples.MVVMTabbedPage.ViewModel
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(property));
         }
-        private ObservableCollection<People> model;
-        public ObservableCollection<People> Model
+        private List<People> model;
+        public  List<People> Model
         {
             get { return model; }
             set { model = value; }
         }
         public PeopleViewModel()
         {
-            model = new ObservableCollection<People>();
+            model = new List<People>();
+            addcommand = new Command(AddPeople);
         }
         void ModelData()
         {
             Bank bank = new Bank()
             {
-                BankCode = "11111",
-                BankIban = "123123-123123-123",
+                BankCode = "asdasd",
+                BankIban = "asdasd",
+                BankId = 1
+            };
+            People people = new People()
+            {
+                Email = "asdasd",
+                FatherName = "asdasd",
+                FirstName = "asdasd",
+                Id = 1,
+                LastName = "asdasd",
+                MotherName = "asdasd",
+                Phone = "asdasd",
+                TCKN = "asdasd",
+                BankId = 1
+            };
+            Model.Add(people);
+        }
+        public ICommand addcommand;
+        public ICommand AddCommand
+        {
+            get { return addcommand; }
+            set { addcommand = value;OnPropertyChanged(); }
+        }
+        public void AddPeople()
+        {
+            Bank bank = new Bank()
+            {
+                BankCode = bankcode,
+                BankIban =bankIban,
                 BankId = model.Count + 1
             };
             People people = new People()
@@ -101,8 +133,7 @@ namespace XamarinFormsExamples.MVVMTabbedPage.ViewModel
                 TCKN = tckn,
                 BankId = bank.BankId
             };
-            model.Add(people);
+            Model.Add(people);
         }
-
     }
 }
