@@ -33,7 +33,7 @@ namespace XamarinFormsExamples.MVVMMasterDetailPage.ViewModel
         {
             Model.Clear();
             Model.Add(new MenuModel { Id = 1, Icon = "Arka.png", Name = "Home", TargetType = typeof(Home) });
-            Model.Add(new MenuModel { Id = 3, Icon = "Ekle.png", Name = "Fiş Ekle", TargetType = typeof(About) });
+            Model.Add(new MenuModel { Id = 3, Icon = "Ekle.png", Name = "Hakkımızda", TargetType = typeof(About) });
         }
         public MenuViewModel()
         {

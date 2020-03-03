@@ -1,6 +1,7 @@
 ﻿using Xamarin.Forms;
 using XamarinFormsExamples.EmailValid;
 using XamarinFormsExamples.ListViewCRUD.View;
+using XamarinFormsExamples.MVVMMasterDetailPage.View;
 using XamarinFormsExamples.MVVMTabbedPage.View;
 
 namespace XamarinFormsExamples
@@ -19,7 +20,8 @@ namespace XamarinFormsExamples
             //MainPage = new ListViewViewCell() { BindingContext = new DepartmentViewModel() };
             //MainPage = new DepartmentView();
             //MainPage = new EmailValidView();
-            MainPage = new TabbedPageView();
+            //MainPage = new TabbedPageView();
+            MainPage = new MenuView();
         }
 
         protected override void OnStart()
