@@ -11,7 +11,9 @@
 * MVVM ile **ViewCell** Kullanımı
 * MVVM ile **EntryCell** Kullanımı
 * MVVM ile **ImageCell** Kullanımı
-* MVVM ile **SwitchCell** Kullanımı
+* MVVM ile **SwitchCell** Kullanımı 
+#### Pages<br/>
+* MVVM ile **TabbedPage** Kullanımı
 
 #### Validasyon
 * Email Validasyon Kullanımı. 
