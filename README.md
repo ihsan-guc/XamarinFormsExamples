@@ -14,6 +14,6 @@
 * MVVM ile **SwitchCell** Kullanımı 
 #### Pages<br/>
 * MVVM ile **TabbedPage** Kullanımı
-
+* MVVM ile **MasterDetailPage** Kullanımı
 #### Validasyon
 * Email Validasyon Kullanımı. 
