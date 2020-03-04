@@ -12,6 +12,7 @@
 * MVVM ile **EntryCell** Kullanımı
 * MVVM ile **ImageCell** Kullanımı
 * MVVM ile **SwitchCell** Kullanımı 
+* MVVM ile **CRUD** İşlemleri
 #### Pages<br/>
 * MVVM ile **TabbedPage** Kullanımı
 * MVVM ile **MasterDetailPage** Kullanımı
