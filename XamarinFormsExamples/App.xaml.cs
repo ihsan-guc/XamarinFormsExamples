@@ -3,12 +3,13 @@ using XamarinFormsExamples.EmailValid;
 using XamarinFormsExamples.ListViewCRUD.View;
 using XamarinFormsExamples.MVVMMasterDetailPage.View;
 using XamarinFormsExamples.MVVMTabbedPage.View;
+using XamarinFormsExamples.SQLiteExample;
 
 namespace XamarinFormsExamples
 {
     public partial class App : Application
     {
-        public App()
+        public App(IPeopleRepository peopleRepository)
         {
             InitializeComponent();
 
@@ -21,7 +22,7 @@ namespace XamarinFormsExamples
             //MainPage = new DepartmentView();
             //MainPage = new EmailValidView();
             //MainPage = new TabbedPageView();
-            MainPage = new MenuView();
+            MainPage = new SQLiteExample.PeopleView(peopleRepository);
         }
 
         protected override void OnStart()

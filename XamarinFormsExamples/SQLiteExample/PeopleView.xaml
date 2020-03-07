@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Name="peopleView"
+             x:Class="XamarinFormsExamples.SQLiteExample.PeopleView">
+    <ContentPage.Content>
+        <StackLayout Spacing="20">
+            <Entry Placeholder="People Add" FontAttributes="Bold" FontSize="23"></Entry>
+            <Button Text="Add" FontSize="23"  Clicked="AddPeople"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
