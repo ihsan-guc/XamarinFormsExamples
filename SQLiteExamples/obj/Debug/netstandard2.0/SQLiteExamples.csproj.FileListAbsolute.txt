@@ -1,5 +1,0 @@
-C:\Users\EysanGuc\source\repos\XamarinFormsExamples\SQLiteExamples\bin\Debug\netstandard2.0\SQLiteExamples.deps.json
-C:\Users\EysanGuc\source\repos\XamarinFormsExamples\SQLiteExamples\bin\Debug\netstandard2.0\SQLiteExamples.dll
-C:\Users\EysanGuc\source\repos\XamarinFormsExamples\SQLiteExamples\obj\Debug\netstandard2.0\SQLiteExamples.csprojAssemblyReference.cache
-C:\Users\EysanGuc\source\repos\XamarinFormsExamples\SQLiteExamples\obj\Debug\netstandard2.0\SQLiteExamples.AssemblyInfoInputs.cache
-C:\Users\EysanGuc\source\repos\XamarinFormsExamples\SQLiteExamples\obj\Debug\netstandard2.0\SQLiteExamples.AssemblyInfo.cs
