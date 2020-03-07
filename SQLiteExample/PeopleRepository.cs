@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using XamarinFormsExamples.SQLiteExample;
@@ -29,8 +30,17 @@ namespace SQLiteExample
             }
         }
 
-        public Task<IEnumerable<People>> GetPersonelAsyncList()
+        public async Task<IEnumerable<People>> GetPersonelAsyncList()
         {
+            try
+            {
+                var list = await context.Peoples.ToListAsync();
+                return list;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
         }
     }
 }
