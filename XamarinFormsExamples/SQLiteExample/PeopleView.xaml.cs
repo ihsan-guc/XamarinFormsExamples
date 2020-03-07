@@ -21,7 +21,18 @@ namespace XamarinFormsExamples.SQLiteExample
 
         private void AddPeople(object sender, EventArgs e)
         {
-            peopleContext.AddPeople = 
+            var people = new People()
+            {
+                FirstName = firstNameEntry.Text,
+                LastName = lastNameEntry.Text,
+                Id = peopleContext.GetPersonelList().Count,
+            };
+
+            var isadd = peopleContext.AddPeople(people);
+            if (isadd == null)
+            {
+                DisplayAlert("Error", isadd.ToString(), "OK", "Cancel");
+            }
         }
     }
 }

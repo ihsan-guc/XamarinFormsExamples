@@ -3,3 +3,9 @@ C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\SQLiteE
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\SQLiteExample\obj\Debug\netstandard2.0\SQLiteExample.csprojAssemblyReference.cache
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\SQLiteExample\obj\Debug\netstandard2.0\SQLiteExample.AssemblyInfoInputs.cache
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\SQLiteExample\obj\Debug\netstandard2.0\SQLiteExample.AssemblyInfo.cs
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\SQLiteExample\bin\Debug\netstandard2.0\SQLiteExample.pdb
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\SQLiteExample\bin\Debug\netstandard2.0\XamarinFormsExamples.dll
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\SQLiteExample\bin\Debug\netstandard2.0\XamarinFormsExamples.pdb
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\SQLiteExample\obj\Debug\netstandard2.0\SQLiteExample.csproj.CopyComplete
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\SQLiteExample\obj\Debug\netstandard2.0\SQLiteExample.dll
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\SQLiteExample\obj\Debug\netstandard2.0\SQLiteExample.pdb

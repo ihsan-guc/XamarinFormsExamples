@@ -30,11 +30,11 @@ namespace SQLiteExample
             }
         }
 
-        public async Task<IEnumerable<People>> GetPersonelAsyncList()
+        public List<People> GetPersonelList()
         {
             try
             {
-                var list = await context.Peoples.ToListAsync();
+                var list = context.Peoples.ToList();
                 return list;
             }
             catch (Exception)

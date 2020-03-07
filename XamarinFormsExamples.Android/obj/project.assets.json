@@ -1222,6 +1222,20 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "SQLiteExample/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "3.1.2",
+          "XamarinFormsExamples": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SQLiteExample.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SQLiteExample.dll": {}
+        }
+      },
       "XamarinFormsExamples/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -3065,6 +3079,11 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "SQLiteExample/1.0.0": {
+      "type": "project",
+      "path": "../SQLiteExample/SQLiteExample.csproj",
+      "msbuildProject": "../SQLiteExample/SQLiteExample.csproj"
+    },
     "XamarinFormsExamples/1.0.0": {
       "type": "project",
       "path": "../XamarinFormsExamples/XamarinFormsExamples.csproj",
@@ -3074,6 +3093,7 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.2",
+      "SQLiteExample >= 1.0.0",
       "Xamarin.Essentials >= 1.3.1",
       "Xamarin.Forms >= 4.3.0.908675",
       "XamarinFormsExamples >= 1.0.0"
@@ -3111,6 +3131,9 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
+            "C:\\Users\\EysanGuc\\source\\repos\\XamarinFormsExamples\\XamarinFormsExamples\\SQLiteExample\\SQLiteExample.csproj": {
+              "projectPath": "C:\\Users\\EysanGuc\\source\\repos\\XamarinFormsExamples\\XamarinFormsExamples\\SQLiteExample\\SQLiteExample.csproj"
+            },
             "C:\\Users\\EysanGuc\\source\\repos\\XamarinFormsExamples\\XamarinFormsExamples\\XamarinFormsExamples\\XamarinFormsExamples.csproj": {
               "projectPath": "C:\\Users\\EysanGuc\\source\\repos\\XamarinFormsExamples\\XamarinFormsExamples\\XamarinFormsExamples\\XamarinFormsExamples.csproj"
             }

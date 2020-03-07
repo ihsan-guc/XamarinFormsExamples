@@ -521,3 +521,7 @@ C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\Xamarin
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\android\assets\System.Text.Encodings.Web.dll
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\android\assets\System.Text.Json.dll
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\android\assets\System.Threading.Tasks.Extensions.dll
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\bin\Debug\SQLiteExample.dll
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\bin\Debug\SQLiteExample.pdb
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\android\assets\SQLiteExample.dll
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\android\assets\SQLiteExample.pdb

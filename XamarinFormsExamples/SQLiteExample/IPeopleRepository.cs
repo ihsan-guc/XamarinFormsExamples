@@ -4,7 +4,7 @@ namespace XamarinFormsExamples.SQLiteExample
 {
     public interface IPeopleRepository
     {
-        Task<IEnumerable<People>> GetPersonelAsyncList();
+        List<People> GetPersonelList();
         Task<bool> AddPeople(People people);
     }
 }

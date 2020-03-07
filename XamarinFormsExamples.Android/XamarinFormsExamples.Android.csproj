@@ -91,6 +91,10 @@
     <AndroidResource Include="Resources\drawable\picture.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SQLiteExample\SQLiteExample.csproj">
+      <Project>{5D272CDD-A47B-42E2-91A2-66E96284E5E1}</Project>
+      <Name>SQLiteExample</Name>
+    </ProjectReference>
     <ProjectReference Include="..\XamarinFormsExamples\XamarinFormsExamples.csproj">
       <Project>{107D3E56-DF2E-4EDA-B819-D60277FB2CB0}</Project>
       <Name>XamarinFormsExamples</Name>
