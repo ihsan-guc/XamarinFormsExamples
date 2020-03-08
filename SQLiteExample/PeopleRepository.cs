@@ -2,8 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using XamarinFormsExamples.SQLiteExample;
 
 namespace SQLiteExample
@@ -15,12 +13,12 @@ namespace SQLiteExample
         {
             context = new EfContext(path);
         }
-        public async Task<bool> AddPeople(People people)
+        public bool AddPeople(People people)
         {
             try
             {
-                var tracking = await context.Peoples.AddAsync(people);
-                await context.SaveChangesAsync();
+                var tracking = context.Peoples.Add(people);
+                context.SaveChangesAsync();
                 var isAdd = tracking.State == EntityState.Added;
                 return isAdd;
             }

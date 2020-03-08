@@ -5,9 +5,18 @@
              x:Class="XamarinFormsExamples.SQLiteExample.PeopleView">
     <ContentPage.Content>
         <StackLayout Spacing="20">
-            <Entry Placeholder="People FirstName" FontAttributes="Bold" FontSize="23" x:Name="firstNameEntry"></Entry>
-            <Entry Placeholder="People LastName"  FontAttributes="Bold" FontSize="23"  x:Name="lastNameEntry" ></Entry>
-            <Button Text="Add" FontSize="23"  Clicked="AddPeople"></Button>
+            <StackLayout>
+                <Entry Placeholder="People FirstName" FontAttributes="Bold" FontSize="23" x:Name="firstNameEntry"></Entry>
+                <Entry Placeholder="People LastName"  FontAttributes="Bold" FontSize="23"  x:Name="lastNameEntry" ></Entry>
+                <Button Text="Add" FontSize="23"  Clicked="AddPeople"></Button>
+            </StackLayout>
+            <ListView x:Name="ltsView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding FirstName}" Detail="{Binding LastName}"></TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

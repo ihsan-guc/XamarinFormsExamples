@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -17,6 +12,7 @@ namespace XamarinFormsExamples.SQLiteExample
         {
             InitializeComponent();
             peopleContext = peopleRepository;
+            PeopleData();
         }
 
         private void AddPeople(object sender, EventArgs e)
@@ -25,14 +21,23 @@ namespace XamarinFormsExamples.SQLiteExample
             {
                 FirstName = firstNameEntry.Text,
                 LastName = lastNameEntry.Text,
-                Id = peopleContext.GetPersonelList().Count,
+                Id = Guid.NewGuid(),
             };
 
-            var isadd = peopleContext.AddPeople(people);
-            if (isadd == null)
+            bool isadd = peopleContext.AddPeople(people);
+            if (isadd)
             {
                 DisplayAlert("Error", isadd.ToString(), "OK", "Cancel");
             }
+            else
+            {
+                DisplayAlert("People Add","OK", "Cancel");
+            }
+            PeopleData();
+        }
+        void PeopleData()
+        {
+            ltsView.ItemsSource = peopleContext.GetPersonelList();
         }
     }
 }

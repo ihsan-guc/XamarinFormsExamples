@@ -24,7 +24,7 @@ namespace XamarinFormsExamples.Droid
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             var dbPath = Path.Combine(System.Environment.GetFolderPath
-                (System.Environment.SpecialFolder.Personal), "People.db");
+                (System.Environment.SpecialFolder.Personal), "PeopleDb.db");
             PeopleRepository peopleRepository = new PeopleRepository(dbPath);
             LoadApplication(new App(peopleRepository));
         }
