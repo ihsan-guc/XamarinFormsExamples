@@ -31,13 +31,27 @@ namespace XamarinFormsExamples.SQLiteExample
             }
             else
             {
-                DisplayAlert("People Add","OK", "Cancel");
+                DisplayAlert("People Add", "OK", "Cancel");
             }
             PeopleData();
         }
         void PeopleData()
         {
             ltsView.ItemsSource = peopleContext.GetPersonelList();
+        }
+
+        private async void PeopleDelete(object sender, EventArgs e)
+        {
+            MenuItem menuItem = sender as MenuItem;
+            People people = (People)menuItem.BindingContext;
+            if (people != null)
+            {
+                bool isOk = await DisplayAlert("Are You Sure You Want To Delete?", people.FirstName + " " + people.LastName, "Ok", "Cancel");
+                if (isOk)
+                {
+                    peopleContext.DeletePeople(people.Id);
+                }
+            }
         }
     }
 }

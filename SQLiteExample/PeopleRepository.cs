@@ -28,6 +28,21 @@ namespace SQLiteExample
             }
         }
 
+        public bool DeletePeople(Guid id)
+        {
+            try
+            {
+                var tracking = context.Peoples.Find(id);
+                var entity = context.Peoples.Remove(tracking);
+                var isDelete = entity.State == EntityState.Deleted;
+                return isDelete;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
         public List<People> GetPersonelList()
         {
             try
