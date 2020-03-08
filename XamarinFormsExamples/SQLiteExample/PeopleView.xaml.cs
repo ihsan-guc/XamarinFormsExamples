@@ -29,10 +29,6 @@ namespace XamarinFormsExamples.SQLiteExample
             {
                 DisplayAlert("Error", isadd.ToString(), "OK", "Cancel");
             }
-            else
-            {
-                DisplayAlert("People Add", "OK", "Cancel");
-            }
             PeopleData();
         }
         void PeopleData()
@@ -50,6 +46,7 @@ namespace XamarinFormsExamples.SQLiteExample
                 if (isOk)
                 {
                     peopleContext.DeletePeople(people.Id);
+                    PeopleData();
                 }
             }
         }
