@@ -20,6 +20,7 @@
 * Email Validasyon Kullanımı. 
 #### SQLite
 * **Database oluşturma**
-* **Database veri ekleme**
-* **Database veri silme**
-* **Database veri Listeleme**
+* **Database Veri Ekleme**
+* **Database Veri Okuma**
+* **Database Veri Silme**
+* **Database Veri Listeleme**
