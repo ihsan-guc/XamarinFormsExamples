@@ -11,8 +11,6 @@ C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\Xamarin
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\XamarinFormsExamples.Android.csprojAssemblyReference.cache
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
-C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\resourcepaths.cache
-C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\resourcecache.stamp
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\res.flag
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\flata\35AFEDFA01DD1F04.stamp
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\flata\35AFEDFA01DD1F04.flata
@@ -529,3 +527,6 @@ C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\Xamarin
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\android\assets\SQLitePCLRaw.batteries_green.dll
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\android\assets\System.Linq.dll
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\android\assets\System.Linq.Expressions.dll
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\bin\Debug\com.companyname.xamarinformsexamples.aab
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\XamarinFormsExamples.Android.csproj.CoreCompileInputs.cache
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples.Android\obj\Debug\90\android\AndroidManifest.xml
