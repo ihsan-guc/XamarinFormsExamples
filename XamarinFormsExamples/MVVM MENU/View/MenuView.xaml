@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" Title="Menu" Padding="10"
+             xmlns:local="clr-namespace:XamarinFormsExamples.MVVM_MENU.View" x:Name="menu_View"
+             x:Class="XamarinFormsExamples.MVVM_MENU.View.MenuView">
+    <StackLayout>
+        <TableView Intent="Menu">
+            <TableRoot>
+                <TableSection>
+                    <TextCell Text="Product"
+                          Detail="Product Menu"
+                          Command="{Binding Path=BindingContext.NavigateCommand,Source={x:Reference menu_View}}"
+                          CommandParameter="{x:Type local:ProductView}" />
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </StackLayout>
+</ContentPage>

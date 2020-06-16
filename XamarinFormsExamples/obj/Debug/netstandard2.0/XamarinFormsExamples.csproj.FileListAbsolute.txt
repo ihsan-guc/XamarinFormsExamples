@@ -28,3 +28,6 @@ C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\Xamarin
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\MVVMMasterDetailPage\View\MenuView.xaml.g.cs
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\SQLiteExample\PeopleView.xaml.g.cs
 C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\MVVM MENU\View\MenuView.xaml.g.cs
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\MVVM MENU\View\ProductView.xaml.g.cs
+C:\Users\EysanGuc\source\repos\XamarinFormsExamples\XamarinFormsExamples\XamarinFormsExamples\obj\Debug\netstandard2.0\XamarinFormsExamples.csproj.CoreCompileInputs.cache

@@ -39,6 +39,12 @@
     <EmbeddedResource Update="ListView\View\ListViewViewCell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="MVVM MENU\View\MenuView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MVVM MENU\View\ProductView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="MVVMMasterDetailPage\View\About.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -75,5 +81,9 @@
     <Compile Update="ListView\View\ListViewTextCell.xaml.cs">
       <DependentUpon>ListViewTextCell.xaml</DependentUpon>
     </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MVVM MENU\Model\" />
   </ItemGroup>
 </Project>
